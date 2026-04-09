@@ -96,13 +96,13 @@ This application helps by:
 
 ## ⚙️ How It Works
 
-User provides input (text, URL, or file)
-Text is extracted and cleaned
-Content is split into manageable chunks
-Transformer model generates summaries
-Output is formatted and enhanced
-Keywords and translations are applied
-Final result is displayed and downloadable
+-User provides input (text, URL, or file)
+-Text is extracted and cleaned
+-Content is split into manageable chunks
+-Transformer model generates summaries
+-Output is formatted and enhanced
+-Keywords and translations are applied
+-Final result is displayed and downloadable
 
 ---
 
