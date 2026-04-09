@@ -119,33 +119,39 @@ This application helps by:
 
 ---
 
-##📌 Example Use Cases
-📚 Summarizing research papers quickly
-📰 Getting insights from long articles
-🧾 Analyzing reports efficiently
-💻 Understanding documentation faster
-📊 Extracting business insights
+## 📌 Example Use Cases
+
+- 📚 Summarizing research papers quickly  
+- 📰 Getting insights from long articles  
+- 🧾 Analyzing reports efficiently  
+- 💻 Understanding documentation faster  
+- 📊 Extracting business insights  
 
 ---
 
-##🔮 Future Enhancements
-📄 OCR support for scanned PDFs
-🤖 Chat with document
-📊 Dashboard analytics
-☁️ Cloud deployment
-🔐 User authentication
-🧠 Multi-document summarization
+## 🔮 Future Enhancements
+
+- 📄 OCR support for scanned PDFs  
+- 🤖 Chat with document  
+- 📊 Dashboard analytics  
+- ☁️ Cloud deployment  
+- 🔐 User authentication  
+- 🧠 Multi-document summarization  
 
 ---
 
-##🏆 Why This Project Stands Out
-Complete end-to-end AI application
-Combines NLP, UI, and file processing
-Solves real-world problem
-Scalable and extensible design
+## 🏆 Why This Project Stands Out
+
+- Complete end-to-end AI application  
+- Combines NLP, UI, and file processing  
+- Solves real-world problem  
+- Scalable and extensible design  
 
 ---
 
-##👨‍💻 Author
-Rohan Ramgopal
+## 👨‍💻 Author
+
+**Rohan Ramgopal**
+
+
 
