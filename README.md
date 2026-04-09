@@ -42,25 +42,23 @@ It supports:
 
 ## ⚙️ How It Works
 
-🚀 Workflow
+1. User provides input (text, URL, or file)
+2. Text is extracted and cleaned
+3. Content is split into manageable chunks
+4. Transformer model generates summaries
+5. Output is formatted and enhanced
+6. Keywords and translations are applied
+7. Final result is displayed and downloadable
 
-User provides input (text, URL, or file)
-Text is extracted and cleaned
-Content is split into manageable chunks
-Transformer model generates summaries
-Output is formatted and enhanced
-Keywords and translations are applied
-Final result is displayed and downloadable
-
-🛠️ Tech Stack
-Category	          | Tools Used
-🧠 AI / NLP         | Hugging Face Transformers
-🔥 Language         | Python
-🎨 UI               | Streamlit
-⚙️ ML Framework	    | PyTorch
-🌐 Web Extraction	  | Trafilatura
-📄 File Handling	  | pypdf, python-docx
-📊 Processing	      | Scikit-learn
+| Category          | Tools Used                |
+| ----------------- | ------------------------- |
+| 🧠 AI / NLP       | Hugging Face Transformers |
+| 🔥 Language       | Python                    |
+| 🎨 UI             | Streamlit                 |
+| ⚙️ ML Framework   | PyTorch                   |
+| 🌐 Web Extraction | Trafilatura               |
+| 📄 File Handling  | pypdf, python-docx        |
+| 📊 Processing     | Scikit-learn              |
 
 📦 Project Structure
 ai-text-summarizer-pro/
@@ -98,6 +96,7 @@ streamlit run app.py
 📊 Dashboard analytics
 ☁️ Cloud deployment
 🔐 User authentication
+🧠 Multi-document summarization
 
 👨‍💻 Author
 Rohan Ramgopal
