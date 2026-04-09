@@ -88,16 +88,6 @@ This application helps by:
 
 ## ⚙️ How It Works
 
-```mermaid
-graph TD
-    A[User Input] --> B[Text Extraction]
-    B --> C[Text Cleaning]
-    C --> D[Chunking Engine]
-    D --> E[Transformer Model]
-    E --> F[Summary Generation]
-    F --> G[Translation & Keywords]
-    G --> H[Display & Download]
-
 🚀 Workflow
 
 User provides input (text, URL, or file)
