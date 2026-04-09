@@ -5,84 +5,38 @@
   <img src="https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit" />
   <img src="https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=for-the-badge&logo=huggingface" />
-  <img src="https://img.shields.io/badge/PyTorch-DeepLearning-orange?style=for-the-badge&logo=pytorch" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PyTorch-orange?style=for-the-badge&logo=pytorch" />
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWZ0d2VxN2RzN2Y2cWJ4d3J0d2Z3Y2Q2dGJzN2o2Z3N6Y2R4eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7btPCcdNniyf0ArS/giphy.gif" width="500"/>
 </p>
 
 ---
 
 ## 🌟 Overview
 
-AI Text Summarizer Pro is an intelligent NLP-powered application that converts long-form content into concise, meaningful summaries.
+AI Text Summarizer Pro is an NLP-powered application that converts long-form content into concise, meaningful summaries.
 
-It helps users quickly understand large amounts of information from:
-
-- 📰 News articles  
+It supports:
+- 📰 Articles  
 - 📚 Blogs  
 - 📄 Research papers  
-- 🧾 Reports  
-- 📂 Uploaded PDF, DOCX, and TXT files  
+- 📂 PDF, DOCX, TXT files  
 
-This project demonstrates strong skills in:
-- Natural Language Processing (NLP)
-- Transformer-based AI models
-- Document intelligence systems
-- Full-stack AI application development
+👉 Built to help users **save time and understand information faster**.
 
 ---
 
-## ✨ Why This Project Is Useful
+## 🎯 Key Features
 
-In today’s world, information overload is a major problem.
-
-This application helps by:
-- ⏱️ Reducing reading time drastically  
-- 🧠 Extracting key insights instantly  
-- 📈 Improving productivity  
-- 📉 Reducing cognitive overload  
-
-### Ideal for:
-- 📚 Students  
-- 🔬 Researchers  
-- 💻 Engineers  
-- 📊 Business professionals  
-
----
-
-## 🎯 Core Features
-
-### ✍️ Multi-Input Support
-- Paste text directly  
-- Extract text from URLs  
-- Upload PDF, DOCX, TXT files  
-
-### 🧠 AI-Powered Summarization
-- Uses Hugging Face transformer models  
-- Generates high-quality summaries  
-- Handles long text using chunking  
-
-### 🎛️ Flexible Summary Modes
-- Short  
-- Medium  
-- Detailed  
-
-### 📌 Output Options
-- Paragraph format  
-- Bullet-point summaries  
-
-### 🌐 Translation Support
-- Translate summaries into multiple languages  
-
-### 🔑 Keyword Extraction
-- Automatically detects important terms  
-
-### 📥 Export Features
-- Download summary as text  
-- Easy copy functionality  
+- ✍️ Paste text, enter URL, or upload files  
+- 🧠 AI-powered summarization (Hugging Face Transformers)  
+- 🎛️ Short / Medium / Detailed modes  
+- 📌 Bullet-point or paragraph output  
+- 🌐 Translation support  
+- 🔑 Keyword extraction  
+- 📥 Download summary  
 
 ---
 
