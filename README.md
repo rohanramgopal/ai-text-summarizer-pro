@@ -32,6 +32,70 @@ This project demonstrates practical implementation of:
 - Interactive AI web applications  
 
 ---
+## 🏗️ Architecture Diagram
+
+```mermaid
+flowchart TD
+
+A[User / Reader] --> B[Streamlit Frontend]
+
+subgraph Frontend
+    B --> F1[Paste Text Input]
+    B --> F2[Article URL Input]
+    B --> F3[File Upload Input]
+    B --> F4[Summary Controls]
+    B --> F5[Output Dashboard]
+end
+
+F1 --> C[Input Manager]
+F2 --> C
+F3 --> C
+F4 --> C
+
+subgraph Extraction
+    C --> E1[Raw Text Handler]
+    C --> E2[URL Text Extractor]
+    C --> E3[PDF Extractor]
+    C --> E4[DOCX / TXT Extractor]
+end
+
+E1 --> P[Text Processing Pipeline]
+E2 --> P
+E3 --> P
+E4 --> P
+
+subgraph Processing
+    P --> P1[Text Cleaning]
+    P1 --> P2[Chunking Engine]
+    P2 --> P3[Transformer Summarizer]
+    P3 --> P4[Summary Merger]
+end
+
+subgraph AI_Models
+    P3 --> M1[Hugging Face BART Model]
+    P4 --> M2[Translation Model Optional]
+    P4 --> M3[Keyword Extraction Engine]
+end
+
+M1 --> O[Output Generator]
+M2 --> O
+M3 --> O
+
+subgraph Output
+    O --> O1[Paragraph Summary]
+    O --> O2[Bullet Point Summary]
+    O --> O3[Top Keywords]
+    O --> O4[Translated Summary]
+    O --> O5[Download Summary]
+end
+
+O1 --> B
+O2 --> B
+O3 --> B
+O4 --> B
+O5 --> B
+```
+---
 
 ## ✨ Why This Project Is Useful
 
